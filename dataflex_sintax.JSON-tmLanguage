@@ -54,7 +54,7 @@
     },
 
     
-    { "match": "(\\bObject\\b(.*)\\b)", 
+    { "match": "(\\bObject\\b(\\s*\\w*\\b){4})", 
       "name": "entity.name.function"
     },
 

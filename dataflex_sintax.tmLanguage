@@ -71,7 +71,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(\bObject\b(.*)\b)</string>
+			<string>(\bObject\b(\s*\w*\b){4})</string>
 			<key>name</key>
 			<string>entity.name.function</string>
 		</dict>
