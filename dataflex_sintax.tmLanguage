@@ -10,6 +10,7 @@
 		<string>dg</string>
 		<string>src</string>
 		<string>dd</string>
+		<string>pkg</string>
 	</array>
 	<key>name</key>
 	<string>VDF</string>
@@ -65,37 +66,37 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b((0(x|X)[0-9a-fA-F]*)|(([0-9]+\.?[0-9]*)|(\.[0-9]+))((e|E)(\+|-)?[0-9]+)?)([LlFfUuDd]|UL|ul)?\b</string>
+			<string>(?i)\b((0(x|X)[0-9a-fA-F]*)|(([0-9]+\.?[0-9]*)|(\.[0-9]+))((e|E)(\+|-)?[0-9]+)?)([LlFfUuDd]|UL|ul)?\b</string>
 			<key>name</key>
 			<string>constant.numeric</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(\bObject\b(\s*\w*\b){4})</string>
+			<string>(?i)(\bObject\b(\s*\w*\b){4})</string>
 			<key>name</key>
 			<string>entity.name.function</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(\bProcedure\b(.*)\b)</string>
+			<string>(?i)(\bProcedure\b([^/]*)\b)</string>
 			<key>name</key>
 			<string>entity.name.function</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(\bFunction\b(.*)\b)</string>
+			<string>(?i)(\bFunction\b([^/]*)\b)</string>
 			<key>name</key>
 			<string>entity.name.function</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(\bEnd_Object|Cd_End_Object\b)</string>
+			<string>(?i)(\bEnd_Object|Cd_End_Object\b)</string>
 			<key>name</key>
 			<string>entity.name.tag</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(\bEnd_Procedure\b)</string>
+			<string>(?i)(\bEnd_Procedure\b)</string>
 			<key>name</key>
 			<string>entity.name.tag</string>
 		</dict>
@@ -107,55 +108,55 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(Number|Integer|String|Boolean|Date|Handle)\b</string>
+			<string>(?i)\b(Number|Integer|String|Boolean|Date|Handle)\b</string>
 			<key>name</key>
 			<string>storage.type</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(Struct|End_Struct|Begin_Row|End_Row|Enumeration_List|End_Enumeration_List)\b</string>
+			<string>(?i)\b(Struct|End_Struct|Begin_Row|End_Row|Enumeration_List|End_Enumeration_List)\b</string>
 			<key>name</key>
 			<string>support.function</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(Case|Constrain|Property)\b</string>
+			<string>(?i)\b(Case|Constrain|Property)\b</string>
 			<key>name</key>
 			<string>support.function</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(Use|Send|Sysdate|Get|Set|Index|Clear|Find|Move|Showln|Found|On_Key|Increment|Entry_Item|Add)\b</string>
+			<string>(?i)\b(Use|Send|Sysdate|Get|Set|Index|Clear|Find|Move|Showln|Found|On_Key|Increment|Entry_Item|Add)\b</string>
 			<key>name</key>
 			<string>support.function</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(Procedure_Return|Forward|Function_Return|Begin|End|While|Repeat|Loop|If|Else|For_All|End_For_All|Deferred_View|Until)\b</string>
+			<string>(?i)\b(Procedure_Return|Forward|Function_Return|Begin|End|While|Repeat|Loop|If|Else|For_All|End_For_All|Deferred_View|Until)\b</string>
 			<key>name</key>
 			<string>support.function</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(False|True|Self)\b</string>
+			<string>(?i)\b(False|True|Self)\b</string>
 			<key>name</key>
 			<string>support.function</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(Write|Writeln|Left|Right|Mid|For|Runprogram|shell|Close_Output|Direct_Output|Ordering|Define)\b</string>
+			<string>(?i)\b(Write|Writeln|Left|Right|Mid|For|Runprogram|shell|Close_Output|Direct_Output|Ordering|Define)\b</string>
 			<key>name</key>
 			<string>support.function</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(SaveRecord|Unlock|Reread|Repeat)\b</string>
+			<string>(?i)\b(SaveRecord|Unlock|Reread|Repeat)\b</string>
 			<key>name</key>
 			<string>support.function</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(eq|ge|gt|le|=|&lt;|&gt;|ne|&lt;&gt;|&gt;=|&lt;=|and|or|lt)\b</string>
+			<string>(?i)\b(eq|ge|gt|le|=|&lt;|&gt;|ne|&lt;&gt;|&gt;=|&lt;=|and|or|lt)\b</string>
 			<key>name</key>
 			<string>keyword.operator.comparison</string>
 		</dict>
@@ -167,19 +168,19 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(for|is|a|to|not|do|continue|rgb|of|by|from)\b</string>
+			<string>(?i)\b(for|is|a|to|not|do|continue|rgb|of|by|from)\b</string>
 			<key>name</key>
 			<string>keyword.control</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b.*\.dd\b|\b.*\.DD\b</string>
+			<string>(?i)\b.*\.dd\b|\b.*\.DD\b</string>
 			<key>name</key>
 			<string>constant.language</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b.*\.pkg\b</string>
+			<string>(?i)\b.*\.pkg\b</string>
 			<key>name</key>
 			<string>constant.language</string>
 		</dict>

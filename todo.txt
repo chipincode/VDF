@@ -1,2 +1,19 @@
 # Reference
 http://docs.sublimetext.info/en/latest/reference/syntaxdefs.html
+http://docs.sublimetext.info/en/sublime-text-2/extensibility/syntaxdefs.html
+http://docs.sublimetext.info/en/sublime-text-3/extensibility/syntaxdefs.html
+http://manual.macromates.com/en/scope_selectors.html
+http://blog.macromates.com/2005/introduction-to-scopes/
+http://manual.macromates.com/en/language_grammars.html
+
+# TODOs
+
+Comments hotkey to work
+
+#Since Last Commit
+Fix the function highlighting where comments are highlighted as well as the function
+Add case insensitivity (?i)
+
+# Tips
+Use  (?-i) to turn off case insensitivity
+Use (?i) to turn on case insensitivity
