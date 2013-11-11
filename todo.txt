@@ -1,0 +1,29 @@
+# Reference
+http://docs.sublimetext.info/en/latest/reference/syntaxdefs.html
+http://docs.sublimetext.info/en/sublime-text-2/extensibility/syntaxdefs.html
+http://docs.sublimetext.info/en/sublime-text-3/extensibility/syntaxdefs.html
+http://manual.macromates.com/en/scope_selectors.html
+http://blog.macromates.com/2005/introduction-to-scopes/
+http://manual.macromates.com/en/language_grammars.html
+
+## Plugin Development
+http://docs.sublimetext.info/en/sublime-text-3/extensibility/plugins.html
+http://docs.sublimetext.info/en/sublime-text-3/reference/commands.html
+http://www.sublimetext.com/docs/3/api_reference.html
+http://www.sublimetext.com/forum/viewtopic.php?f=4&t=13748&p=52576&hilit=double+click#p52576
+http://www.sublimetext.com/forum/viewtopic.php?f=6&t=14538&p=55147&hilit=double+click#p55147
+
+# TODOs
+Scrape in the autocomplete form VDF for functions etc.
+Get the global symbol finding in projects to work.
+Global Symbol find to work in VDF
+
+# BIG TODO Ideas
+Double clicking package name opens the file in sublime
+work on a build script for Sublime for VDF
+pipe error to sublime after a build
+Build a Object based tree sidebar (one version just based on code folding etc)
+
+# Tips
+Use  (?-i) to turn off case insensitivity
+Use (?i) to turn on case insensitivity
