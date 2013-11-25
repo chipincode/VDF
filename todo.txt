@@ -14,16 +14,36 @@ http://www.sublimetext.com/forum/viewtopic.php?f=4&t=13748&p=52576&hilit=double+
 http://www.sublimetext.com/forum/viewtopic.php?f=6&t=14538&p=55147&hilit=double+click#p55147
 
 # TODOs
-Scrape in the autocomplete form VDF for functions etc.
-Get the global symbol finding in projects to work.
-Global Symbol find to work in VDF
+Scrape in the autocomplete form VDF for functions etc from fmac and HCSSmac
+Highlight variable names in functions and procedures correctly
+Search within scope or symbol.
+Make this display correctly: Class Activity_DataDictionary is a HCSS_DataDictionary | And this: 	Procedure Set Main_File Integer iFile
+Go To Definition for commands:
+#COMMAND GET_SYS_STRING
+	Get Read_Preference of ghSystemPreferences !1 to !3
+#ENDCOMMAND // GET_SYS_STRING
+
+This selects incorrectly: 
+						Else If (Abs(nEstdetlPrice - nAdjustedQuotePrice) < 0.0001) Append sRetVal 'U' //MAS 02/14/2011 Else If (Abs(nEstdetlPrice - nAdjustedQuotePrice) < 0.01) Append sRetVal 'U' //MAS 09/22/2010 added else
+Put keyword selection in the syntax.
+
+sublime.active_window().num_groups()
+http://docs.sublimetext.info/en/latest/extensibility/plugins.html
 
 # BIG TODO Ideas
 Double clicking package name opens the file in sublime
 work on a build script for Sublime for VDF
 pipe error to sublime after a build
 Build a Object based tree sidebar (one version just based on code folding etc)
+Make command, go to definite in file -- make the command check if they are using sublime text 3
+
+# Since Last Commit
+CD_Object doesn't select as a symbol in the project, do this for other unidentified symbols as well.
+Global Symbol find to work in VDF
 
 # Tips
 Use  (?-i) to turn off case insensitivity
 Use (?i) to turn on case insensitivity
+sublime.active_window().num_groups()
+sublime.find_resources("*.sublime-workspace")
+sublime.message_dialog("You are using " + sublime.platform())
