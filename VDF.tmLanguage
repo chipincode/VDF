@@ -72,12 +72,46 @@
 		</dict>
 		<dict>
 			<key>match</key>
+			<string>(?i)^[^"'/]*:</string>
+			<key>name</key>
+			<string>entity.name.function</string>
+		</dict>
+		<dict>
+			<key>match</key>
 			<string>(?i)(\bObject\b\s(\w*\b)(\s*\w*\b){3})</string>
 			<key>name</key>
 			<string>constant.language</string>
 			<key>captures</key>
 			<dict>
 				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.function</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?i)External_Function (\b\w*\b)</string>
+			<key>name</key>
+			<string>constant.language</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.function</string>
+				</dict>
+			</dict>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>(?i)#COMMAND\s*(\w*\b)</string>
+			<key>name</key>
+			<string>constant.language</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
 				<dict>
 					<key>name</key>
 					<string>entity.name.function</string>

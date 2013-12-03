@@ -18,13 +18,9 @@ Scrape in the autocomplete form VDF for functions etc from fmac and HCSSmac
 Highlight variable names in functions and procedures correctly
 Search within scope or symbol.
 Make this display correctly: Class Activity_DataDictionary is a HCSS_DataDictionary | And this: 	Procedure Set Main_File Integer iFile
-Go To Definition for commands:
-#COMMAND GET_SYS_STRING
-	Get Read_Preference of ghSystemPreferences !1 to !3
-#ENDCOMMAND // GET_SYS_STRING
 
-This selects incorrectly: 
-						Else If (Abs(nEstdetlPrice - nAdjustedQuotePrice) < 0.0001) Append sRetVal 'U' //MAS 02/14/2011 Else If (Abs(nEstdetlPrice - nAdjustedQuotePrice) < 0.01) Append sRetVal 'U' //MAS 09/22/2010 added else
+meta — the meta scope is generally used to markup larger parts of the document. For example the entire line which declares a function would be meta.function and the subsets would be storage.type, entity.name.function, variable.parameter etc. and only the latter would be styled. Sometimes the meta part of the scope will be used only to limit the more general element that is styled, most of the time meta scopes are however used in scope selectors for activation of bundle items. For example in Objective-C there is a meta scope for the interface declaration of a class and the implementation, allowing the same tab-triggers to expand differently, depending on context.
+
 Put keyword selection in the syntax.
 
 sublime.active_window().num_groups()
