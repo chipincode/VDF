@@ -11,6 +11,14 @@
 		<string>src</string>
 		<string>dd</string>
 		<string>pkg</string>
+		<string>mod</string>
+		<string>cls</string>
+		<string>CLS</string>
+		<string>bpo</string>
+		<string>rpt</string>
+		<string>mnu</string>
+		<string>cal</string>
+		<string>con</string>
 	</array>
 	<key>name</key>
 	<string>VDF</string>
@@ -72,9 +80,17 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)^[^"'/]*:</string>
+			<string>(?i)^\s*(\w*):</string>
 			<key>name</key>
-			<string>entity.name.function</string>
+			<string>constant.language</string>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>entity.name.function</string>
+				</dict>
+			</dict>
 		</dict>
 		<dict>
 			<key>match</key>
@@ -176,12 +192,12 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)(\b(Procedure|Procedure_Section)\b\s(\w*\b)([^/]*))</string>
+			<string>(?i)(\b(Procedure|Procedure_Section)\b\s(Set\s)?(\w*\b)([^/]*))</string>
 			<key>name</key>
 			<string>constant.language</string>
 			<key>captures</key>
 			<dict>
-				<key>3</key>
+				<key>4</key>
 				<dict>
 					<key>name</key>
 					<string>entity.name.function</string>
@@ -190,12 +206,12 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)(\bFunction\b\s(\w*\b)([^/]*))</string>
+			<string>(?i)(\bFunction\b\s(Get\s)?(\w*\b)([^/]*))</string>
 			<key>name</key>
 			<string>constant.language</string>
 			<key>captures</key>
 			<dict>
-				<key>2</key>
+				<key>3</key>
 				<dict>
 					<key>name</key>
 					<string>entity.name.function</string>
@@ -216,13 +232,19 @@
 		</dict>
 		<dict>
 			<key>match</key>
+			<string>(?i)(\bEnd_Class\b)</string>
+			<key>name</key>
+			<string>entity.name.tag</string>
+		</dict>
+		<dict>
+			<key>match</key>
 			<string>(\bEnd_Function\b)</string>
 			<key>name</key>
 			<string>entity.name.tag</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(Number|Integer|String|Boolean|Date|Handle)\b</string>
+			<string>(?i)\b(Number|Integer|String|Boolean|Date|Handle|DateTime)\b</string>
 			<key>name</key>
 			<string>storage.type</string>
 		</dict>
@@ -240,13 +262,13 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(Use|Send|Sysdate|Get|Set|Index|Clear|Find|Move|Showln|Found|On_Key|Increment|Entry_Item|Add)\b</string>
+			<string>(?i)\b(Use|Send|Sysdate|Get|Set|Index|Clear|Find|Move|Showln|Found|On_Key|Increment|Entry_Item|Add|Register_Object|Register_Function|Register_Procedure|Import_Class_Protocol)\b</string>
 			<key>name</key>
 			<string>support.function</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?i)\b(Procedure_Return|Forward|Function_Return|Begin|End|While|Repeat|Loop|If|Else|For_All|End_For_All|Deferred_View|Until)\b</string>
+			<string>(?i)\b(Procedure_Return|Forward|Function_Return|Begin|End|While|Repeat|Loop|If|Else|For_All|End_For_All|\w*Deferred_View|Until|Delegate)\b</string>
 			<key>name</key>
 			<string>support.function</string>
 		</dict>

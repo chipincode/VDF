@@ -1,12 +1,13 @@
 <snippet>
 	<content><![CDATA[
-Function ${1:FunctionName}
-	${2}
-	Function_Return 
+Function ${1:FunctionName} ${2:Parameters} Returns $3
+	${3} ${4:${3/(.).*([])?/\l\1/}}
+	$5
+	Function_Return $4 
 End_Function
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>func</tabTrigger>
+	<tabTrigger>Func</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.vdf</scope>
 </snippet>

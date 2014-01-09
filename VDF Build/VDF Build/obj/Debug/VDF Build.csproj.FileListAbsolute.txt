@@ -1,0 +1,14 @@
+C:\Users\joseph.doty\Dropbox\HCSS\Projects\Sublime Text 3\Packages\VDF\VDF Build\VDF Build\VDF Build\obj\Debug\VDF_Build.Properties.Resources.resources
+C:\Users\joseph.doty\Dropbox\HCSS\Projects\Sublime Text 3\Packages\VDF\VDF Build\VDF Build\VDF Build\obj\Debug\VDF Build.csproj.GenerateResource.Cache
+C:\Users\joseph.doty\Dropbox\HCSS\Projects\Sublime Text 3\Packages\VDF\VDF Build\VDF Build\VDF Build\bin\Debug\VDF-Build.exe
+C:\Users\joseph.doty\Dropbox\HCSS\Projects\Sublime Text 3\Packages\VDF\VDF Build\VDF Build\VDF Build\bin\Debug\VDF-Build.pdb
+C:\Users\joseph.doty\Dropbox\HCSS\Projects\Sublime Text 3\Packages\VDF\VDF Build\VDF Build\VDF Build\obj\Debug\VDF-Build.exe
+C:\Users\joseph.doty\Dropbox\HCSS\Projects\Sublime Text 3\Packages\VDF\VDF Build\VDF Build\VDF Build\obj\Debug\VDF-Build.pdb
+C:\Users\joseph.doty\Dropbox\HCSS\Projects\Sublime Text 3\Packages\VDF\VDF Build\VDF Build\VDF Build\obj\Debug\VDF Build.csprojResolveAssemblyReference.cache
+C:\Users\joseph.doty\AppData\Roaming\Sublime Text 3\Packages\VDF\VDF Build\VDF Build\obj\Debug\VDF-Build.exe
+C:\Users\joseph.doty\AppData\Roaming\Sublime Text 3\Packages\VDF\VDF Build\VDF Build\obj\Debug\VDF-Build.pdb
+C:\Users\joseph.doty\AppData\Roaming\Sublime Text 3\Packages\VDF\VDF Build\VDF Build\bin\Debug\VDF-Build.exe
+C:\Users\joseph.doty\AppData\Roaming\Sublime Text 3\Packages\VDF\VDF Build\VDF Build\bin\Debug\VDF-Build.pdb
+C:\Users\joseph.doty\AppData\Roaming\Sublime Text 3\Packages\VDF\VDF Build\VDF Build\obj\Debug\VDF Build.csprojResolveAssemblyReference.cache
+C:\Users\joseph.doty\AppData\Roaming\Sublime Text 3\Packages\VDF\VDF Build\VDF Build\obj\Debug\VDF_Build.Properties.Resources.resources
+C:\Users\joseph.doty\AppData\Roaming\Sublime Text 3\Packages\VDF\VDF Build\VDF Build\obj\Debug\VDF Build.csproj.GenerateResource.Cache

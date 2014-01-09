@@ -1,11 +1,11 @@
 <snippet>
 	<content><![CDATA[
-Procedure ${1:ProcedureName}
-	${2}
+Procedure ${1:ProcedureName} ${2:Parameters}
+	${3:}
 End_Procedure
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>pro</tabTrigger>
+	<tabTrigger>Proc</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.vdf</scope>
 </snippet>

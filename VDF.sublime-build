@@ -1,0 +1,13 @@
+{
+	"cmd": ["VDF-Build.exe", "C:\\VDF16.1\\Visual DataFlex 16.1\\Bin\\DFComp.exe", "-x\"${project/\\.sublime-project/\\.sws/}\"", "-e1", "\"${project/\\.sublime-project/\\.src/}\""],
+	"file_regex": "^([^\\s]*) ([0-9]*) (.*)",
+	"path": "C:\\Users\\joseph.doty\\AppData\\Roaming\\Sublime Text 3\\Packages\\VDF",
+	"working_dir": "${project_path:${folder}}",
+	"selector": "source.vdf",
+	"variants": [
+		{
+			"name": "HOSS",
+			"cmd": ["VDF-Build.exe", "C:\\VDF\\Visual DataFlex 11.1\\Bin\\DFComp.exe", "-x\"${project/\\.sublime-project//}\"", "-e1r", "\"${project/\\.sublime-project/\\.src/}\""]
+		}
+	]
+}
