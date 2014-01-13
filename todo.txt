@@ -30,14 +30,10 @@ Case Insensitive GoTo Definition
 
 # BIG TODO Ideas
 Double clicking package name opens the file in sublime
-work on a build script for Sublime for VDF
-pipe error to sublime after a build
 Build a Object based tree sidebar (one version just based on code folding etc)
 Make command, go to definite in file -- make the command check if they are using sublime text 3
 
 # Since Last Commit
-CD_Object doesn't select as a symbol in the project, do this for other unidentified symbols as well.
-Global Symbol find to work in VDF
 
 # Tips
 Use  (?-i) to turn off case insensitivity

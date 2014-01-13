@@ -61,10 +61,10 @@ namespace VDFBuild
                             }
                         }
                     }
-                    else
-                    {
-                        System.Console.WriteLine("Build compiled successfully without error");
-                    }
+                    //else
+                    //{
+                    //    System.Console.WriteLine("Build compiled successfully without error");
+                    //}
                 }
 
                 

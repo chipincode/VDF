@@ -6,8 +6,12 @@
 	"selector": "source.vdf",
 	"variants": [
 		{
-			"name": "HOSS",
+			"name": "VDF 11.1 Build",
 			"cmd": ["VDF-Build.exe", "C:\\VDF\\Visual DataFlex 11.1\\Bin\\DFComp.exe", "-x\"${project/\\.sublime-project//}\"", "-e1r", "\"${project/\\.sublime-project/\\.src/}\""]
+		},
+		{
+			"name": "VDF 17.1 Build",
+			"cmd": ["VDF-Build.exe", "C:\\VDF\\Visual DataFlex 17.1\\Bin\\DFComp.exe", "-x\"${project/\\.sublime-project/\\.sws/}\"", "-e1r", "\"${project/\\.sublime-project/\\.src/}\""]
 		}
 	]
 }
