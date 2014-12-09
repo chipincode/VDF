@@ -19,6 +19,7 @@
 		<string>mnu</string>
 		<string>cal</string>
 		<string>con</string>
+		<string>wbo</string>
 	</array>
 	<key>name</key>
 	<string>VDF</string>
